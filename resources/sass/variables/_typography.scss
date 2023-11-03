@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face {
+   font-family: 'Helvetica Light';
+   src: url("/imports/typography/HelveticaNeue-Light.ttf") format("truetype");
+}
+
+$tg-helvetica-light: 'Helvetica Light', sans-serif;
+$tg-roboto: 'Roboto', sans-serif;

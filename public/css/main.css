@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+@font-face {
+  font-family: "Helvetica Light";
+  src: url("/imports/typography/HelveticaNeue-Light.ttf") format("truetype");
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FFFFFF;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  border: 0;
+  padding: 50px 0 50px 0;
+  width: 100vw;
+  overflow: hidden;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: "Helvetica Light", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+p span {
+  color: #cb4fb6 !important;
+}
+
+input, textarea {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px #151414 solid;
+  padding: 10px;
+}
+
+.myContainer {
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.btn1 {
+  border: 0;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  color: #151414;
+  padding: 10px;
+  transition: all 0.2s;
+}
+
+.btn2 {
+  border: 0;
+  border-radius: 4px;
+  background-color: #D9A5D0;
+  color: #FFFFFF;
+  padding: 10px;
+  transition: all 0.2s;
+}
+
+.btn1, .btn2:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

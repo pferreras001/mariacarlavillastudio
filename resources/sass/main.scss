@@ -1,0 +1,98 @@
+
+//variables
+
+@import 'variables/colors';
+@import 'variables/breakpoints';
+@import 'variables/typography';
+@import 'variables/shadows';
+@import 'variables/border_radius';
+
+//components
+
+@import 'components/home';
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background: $color-white-1;
+  color: white;
+  font-family: $tg-roboto;
+}
+
+section{
+  border:0;
+  padding: 50px 0 50px 0;
+  width:100vw;
+  overflow: hidden;
+}
+
+a{
+  color:white;
+  text-decoration:none;
+  opacity:1;
+  transition: all .2s;
+}
+
+a:hover{
+  color:white;
+  text-decoration:none;
+  opacity: .6;
+}
+
+li{
+  list-style: none;
+}
+
+h1{
+  font-family: $tg-helvetica-light;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+p{
+  font-size:1.4rem;
+}
+
+p span{
+  color: $color-pink-text !important;
+}
+
+input, textarea{
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border: 1px $color-gray-1 solid;
+  padding:10px;
+}
+
+.myContainer{
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.btn1{
+  border:0;
+  border-radius:4px;
+  background-color: $color-white-1;
+  color:$color-gray-1;
+  padding: 10px;
+  transition: all .2s;
+}
+
+.btn2{
+  border:0;
+  border-radius:4px;
+  background-color: $color-pink-dark;
+  color:$color-white-1;
+  padding: 10px;
+  transition: all .2s;
+}
+
+.btn1, .btn2:hover{
+  cursor: pointer;
+  opacity:.6;
+}
