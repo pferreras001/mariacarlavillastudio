@@ -1,0 +1,58 @@
+.contacto{
+    margin-top: 300px;
+    margin-bottom: 250px;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+
+    p{
+        font-size: 2rem;
+        width: 80%;
+        margin: auto;
+    }
+    form{
+        margin-top: 100px;
+
+        input, textarea, button{
+            border: 0;
+            margin-top: 20px;
+            padding: 10px;
+            width: 80%;
+        }
+        input, textarea {
+            background-color: $color-brown-2;
+            color: $color-black-1;
+        }
+        button{
+            color: $color-white-1;
+            background-color: $color-black-1;
+            transition: opacity .2s;
+        }
+        button:hover{
+            opacity: .8!important;
+        }
+        textarea{
+            height: 500px;
+        }
+    }
+
+}
+
+@media #{$breakpoints-medium} {
+
+    
+}
+    
+@media #{$breakpoints-large} {
+    form{
+        input, textarea, button{
+            width: 50%!important;
+        }
+    }
+
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}

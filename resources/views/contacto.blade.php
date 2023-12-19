@@ -3,7 +3,6 @@
 @section('section')
 
 
-  <x-galeria/>
-  <x-carlavilla_studio/>
+  <x-contacto/>
 
 @endsection

@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+@font-face {
+   font-family: 'Yi Baiti';
+   src: url("/imports/typography/msyi.ttf") format("truetype");
+}
 
 @font-face {
    font-family: 'Helvetica Light';
    src: url("/imports/typography/HelveticaNeue-Light.ttf") format("truetype");
 }
 
-$tg-helvetica-light: 'Helvetica Light', sans-serif;
+$tg-julius-sans:'Julius Sans One', sans-serif;
+$tg-yi-baiti:'Yi Baiti', sans-serif;
 $tg-roboto: 'Roboto', sans-serif;

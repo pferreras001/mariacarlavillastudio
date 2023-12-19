@@ -1,0 +1,23 @@
+.carlavilla_studio{
+    margin: 150px 0;
+    text-align: center;
+    img{
+        width: 90%;
+    }
+}
+
+@media #{$breakpoints-medium} {
+
+    
+}
+    
+@media #{$breakpoints-large} {
+    .carlavilla_studio img{
+        width: 60%;
+    }
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}

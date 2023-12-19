@@ -18,6 +18,10 @@ class PagesController extends Controller
     return view('inicio');
   }
 
+  public function contacto(){
+    return view('contacto');
+  }
+
   public function enviar_contacto(Request $req){
     $correo= new contactoMailable($req->input('email'),$req->input('asunto'),$req->input('mensaje'));
     Mail::to('begolardies@gmail.com')->send($correo);

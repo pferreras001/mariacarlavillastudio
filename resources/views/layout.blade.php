@@ -2,7 +2,7 @@
 <html lang="{{ app()->getLocale() }}">
 <head>
 
-  <title>Begoña Lardiés Psicóloga Infantil y Juvenil en Tudela</title>
+  <title>Maria Carlavilla Studio</title>
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -40,7 +40,7 @@
 </head>
 <body>
 
-
+<x-navbar/>
 
 
 
@@ -51,7 +51,7 @@
 
   </div>
 
-
+<x-footer/>
 
 
 
