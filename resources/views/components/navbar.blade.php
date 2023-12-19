@@ -7,9 +7,9 @@
         </div>
         <div class="menu-screen" id="menu-screen">
             <ul>
-                <li>HOME</li>
-                <li>GALERÍA</li>
-                <li>CONTACTO</li>
+                <li><a href="/">HOME</a></li>
+                <li><a href="/#galeria">GALERÍA</a></li>
+                <li><a href="/contacto">CONTACTO</a></li>
             </ul>
         </div>
         <div class="brand">
@@ -18,9 +18,9 @@
     </div>
     <div class="menupage" id="menupage">
         <ul>
-            <li class=""><a href="#home">Home</a></li>
-            <li class=""><a href="#galeria">Galería</a></li>
-            <li class="">Contacto</li>
+            <li class=""><a href="/">Home</a></li>
+            <li class=""><a href="/#galeria">Galería</a></li>
+            <li class=""><a href="/contacto">Contacto</a></li>
         </ul>
     </div>
     <div class="navbar_screen">
@@ -98,7 +98,7 @@ function setActiveMenuItem() {
                 $('#menu-screen ul li:nth-child(2)').addClass('active');
                 $('#menu-screen ul li:nth-child(3)').removeClass('active');
             }
-            if (currentId == 'contactp') {
+            if (currentId == 'contacto') {
                 $('#menupage ul li:first-child').removeClass('active');
                 $('#menupage ul li:nth-child(2)').removeClass('active');
                 $('#menupage ul li:nth-child(3)').addClass('active');

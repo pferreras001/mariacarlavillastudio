@@ -1,4 +1,4 @@
-<section class="section contacto">
+<section class="section contacto" id="contacto">
     <p data-aos-delay="0" data-aos="fade-down">
         Si quieres concretar tu cita escríbenos o llama al
         <a href="">622 644 689</a>
