@@ -142,7 +142,7 @@
   }
 }
 .galeria {
-  margin-top: 200px;
+  margin-top: 0px;
 }
 
 .galeria__container {
@@ -235,7 +235,7 @@
   text-align: center;
 }
 .footer .icon--instagram {
-  height: 200px;
+  height: 100px;
 }
 .footer .icon--instagram path {
   fill: #FFFFFF;
