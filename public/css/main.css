@@ -10,8 +10,9 @@
 .navbar_custom {
   padding: 0;
   max-width: 100vw;
-  position: absolute;
+  position: fixed;
   top: 0;
+  z-index: 5;
 }
 .navbar_custom .head {
   display: flex;
@@ -20,12 +21,28 @@
   justify-content: space-between;
   margin: 20px;
   width: 90vw;
+  transition: all 0.5s;
+}
+.navbar_custom .head.scrolled {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: left;
+}
+.navbar_custom .head.scrolled .brand {
+  justify-content: flex-start;
+}
+.navbar_custom .head.scrolled .brand img {
+  height: 50px;
+  margin-left: 29px;
 }
 .navbar_custom .menu-screen {
   display: none;
 }
 .navbar_custom .menu-screen .active {
   color: #FFFFFF;
+}
+.navbar_custom .menu-screen ul {
+  width: 112px;
 }
 .navbar_custom .menu-screen li {
   list-style: none;
@@ -36,9 +53,11 @@
   align-items: center;
   justify-content: center;
   transition: all 0.2s;
+  transition: all 0.5s;
 }
 .navbar_custom .brand img {
   height: 80px;
+  transition: all 0.5s;
 }
 .navbar_custom .brand:hover {
   opacity: 0.6;

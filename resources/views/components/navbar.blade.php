@@ -1,5 +1,5 @@
 <section class="section navbar_custom">
-    <div class="head">
+    <div class="head" id="head">
         <div class="hamburguer" id="hamburguer">
             <span></span>
             <span></span>
@@ -31,7 +31,17 @@
 <script>
 var isMenuPageActive = false;
 
+
 $(document).ready(function() {
+
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+        $('#head').addClass('scrolled');
+    } else {
+        $('#head').removeClass('scrolled');
+    }
+    });
+
     $('#hamburguer').on('click', function() {
         handleMenuPageActivation();
     });
