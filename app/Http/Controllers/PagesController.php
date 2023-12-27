@@ -23,8 +23,8 @@ class PagesController extends Controller
   }
 
   public function enviar_contacto(Request $req){
-    $correo= new contactoMailable($req->input('email'),$req->input('asunto'),$req->input('mensaje'));
-    Mail::to('begolardies@gmail.com')->send($correo);
-    return view('contacto_enviado');
+    $correo= new contactoMailable($req->input('email'),"Nuevo mensaje a través de mariacarlavillastudio.es",$req->input('mensaje'));
+    Mail::to('info@mariacarlavillastudio.es')->send($correo);
+    return view('inicio');
   }
 }

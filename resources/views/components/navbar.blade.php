@@ -1,4 +1,4 @@
-<section class="section navbar_custom">
+<section class="section navbar_custom" id="navbar">
     <div class="head" id="head">
         <div class="hamburguer" id="hamburguer">
             <span></span>

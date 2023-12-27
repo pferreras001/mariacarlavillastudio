@@ -1,25 +1,26 @@
 .footer {
-    .instagram{
-        width: 100%;
-        text-align: center;
+    color: $color-white-1;
+
+    .container {
+        display: flex;
+        flex-direction: column;
     }
-    .icon--instagram{
-        height: 100px;
+    .icon {
+        fill: $color-white-1;
+        display: none;
     }
-    .icon--instagram path{
+
+    .icon path {
         fill: $color-white-1;
     }
 
-    ul{
-        color: $color-white-1;
-        text-align: center;
-        padding: 0;
-        margin-top: 100px;
+    .icon--instagram path{
+        fill: $color-white-1;
+    }
+    .rs{
         font-size: 1.5rem;
-
-        li{
-            list-style: none;
-        }
+        text-align: center;
+        width: 100%;
     }
 }
 
@@ -29,10 +30,18 @@
 }
     
 @media #{$breakpoints-large} {
-    .footer{
-        .icon--instagram{
-            height: 120px;
-        }
+    .container {
+        flex-direction: row !important;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .rs{
+        font-size: 1.2rem !important;
+        width: calc(100%/4);
+    }
+    .icon {
+        display: inline !important;
+        height: 50px;
     }
 }
 
